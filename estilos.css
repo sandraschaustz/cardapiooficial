@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    background-color: #960BD4;
+    color: #e6f60c;
+    font-size: 1,5em;
+}
+header {
+    width: 100%;
+    height: 200%;
+    background-image: url(foto001.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-y: center;
+    background-attachment: scroll;
+    background-color: #6F0CF6;
+}
+h1 {
+    color: #D40B7B;
+    font-size: 90px;
+    font-style: italic;
+    padding-left: 20%;
+}
+h2 {
+    color: #E300EB;
+    font-size: 80px;
+    font-style: italic;
+    padding-left: 25%;
+}
+#menu {
+    color: #F60C1B;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 1%;
+    display: inline-block;
+    width: 90%;
+}
+h4 {
+    color: #08a5fc;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    display: block;
+}
+.picole, .massas, .milkshake {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.milk {
+    justify-content: center;
+}
+.pedidos { 
+    text-align: center;
+    font-size: 30px;
+    margin-block: 0;
+}
+.creditos {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: #6F0CF6;
+    margin: 0%;
+}
+@media all and (max-width: 1020px) {
+    header {
+        width: 100%;
+        height: 150%;
+        background-size: 150px;
+    }
+    h1 {
+        font-size: 60px;
+        padding-left: 25%;
+    }
+    h2 {
+        font-size: 50px;
+        padding-left: 30%;
+    }
+    .picole, .massas, .milkshake {
+        width: 90%;
+        display: flex;
+        padding-left: 50px;
+    }
+    img {
+        width: 250px;
+    }
+}
+@media all and (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 150%;
+        background-size: 100px;
+    }
+    h1 {
+        font-size: 35px;
+        padding-left: 45%;
+    }
+    h2 {
+        font-size: 30px;
+        padding-left: 40%;
+    }
+    .picole, .massas, .milkshake {
+        width: 90%;
+        display: inline-block;
+        padding-left: 50px;
+    }
+    img {
+        width: 250px;
+    }
+}
